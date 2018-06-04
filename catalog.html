@@ -1,11 +1,13 @@
- <!DOCTYPE html>
- <html lang="ru">
- <head>
-	 <meta charset="UTF-8">
-	 <title>Каталог</title>
- </head>
- <body>
-	 <!-- HEADER -->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Каталог</title>
+</head>
+
+<body>
+	<!-- HEADER -->
 	<header class="main-header">
 		<a class="logo-header" href="#">
 			<img src="index.html" alt="Логотип DEVICE">
@@ -15,8 +17,10 @@
 			<input type="text" name="search" placeholder="Посик по сайту">
 		</form>
 		<ul class="user-navigation-header-list">
-			<li>Вход</li>
-			<li>Выход</li>
+			<li>
+				<a href="#">Валентин Петухов</a>
+			</li>
+			<li>Выыйти</li>
 		</ul>
 		<ul>
 			<li>
@@ -64,12 +68,17 @@
 			</ul>
 		</nav>
 	</header>
+
 	<!-- MAIN -->
 	<main class="container">
 		<h1>Монопады для селфи</h1>
 		<ul class="breadcrums">
-			<li><a href="index.html">Главная</a></li>
-			<li><a href="#">Каталог товаров</a></li>
+			<li>
+				<a href="index.html">Главная</a>
+			</li>
+			<li>
+				<a href="#">Каталог товаров</a>
+			</li>
 			<li>Моноподы для селфи</li>
 		</ul>
 		<section class="filters">
@@ -77,100 +86,127 @@
 			<!-- Здесь будет форма -->
 		</section>
 		<section class="catolog">
-				<h2 class="visuale-hidden">Селфи-палка</h2>
-				<nav class="catalog-menu">
-					<h3>Сортировка:</h3>
-					<ul>
-						<li>По цене</li>
-						<li><a href="#"></a>По типу</li>
-						<li><a href="#"></a>По популярности</li>
-					</ul>
-				</nav>
-				<ul class="catalog-list">
-					<li class="catalog-item">
-						<h3>Любительская селфи-палка</h3>
-						<b>500 руб</b>
-						<a href="#">
+			<h2 class="visuale-hidden">Селфи-палка</h2>
+			<nav class="catalog-menu">
+				<h3>Сортировка:</h3>
+				<ul>
+					<li>По цене</li>
+					<li>
+						<a href="#"></a>По типу</li>
+					<li>
+						<a href="#"></a>По популярности</li>
+				</ul>
+			</nav>
+			<ul class="catalog-list">
+				<li class="catalog-item">
+					<h3>Любительская селфи-палка</h3>
+					<span>500 руб</span>
+					<a href="#">
 						<img src="http://placehold.it/150x100" alt="Любительская селфи-палка">
-						</a>
-					</li>
-					<li class="catalog-item">
-						<h3>Профессиональная селфи-палка</h3>
-						<b>1500 руб</b>
-						<a href="#">
-							<img src="http://placehold.it/150x100" alt="Профессиональная селфи-палка">
-						</a>
-					</li>
-					<li class="catalog-item">
-						<h3>Непотопляемая селфи-палка</h3>
-						<b>2 500 руб</b>
-						<a href="#">
-							<img src="http://placehold.it/150x100" alt="Непотопляемая селфи-палка">
-						</a>
-					</li>
-					<li class="catalog-item">
-						<h3>Cелфи-палка "Следуй за мной"</h3>
-						<b>4 900 руб</b>
-						<a href="#">
+					</a>
+					<a href="#">В корзину</a>
+					<a href="#">Добавить к сравнению</a>
+				</li>
+				<li class="catalog-item">
+					<h3>Профессиональная селфи-палка</h3>
+					<span>1500 руб</span>
+					<a href="#">
+						<img src="http://placehold.it/150x100" alt="Профессиональная селфи-палка">
+					</a>
+					<a href="#">В корзтну</a>
+					<a href="#">Добавить к сравнению</a>
+				</li>
+				<li class="catalog-item">
+					<h3>Непотопляемая селфи-палка</h3>
+					<span>2 500 руб</span>
+					<a href="#">
+						<img src="http://placehold.it/150x100" alt="Непотопляемая селфи-палка">
+					</a>
+				</li>
+				<li class="catalog-item">
+					<h3>Cелфи-палка "Следуй за мной"</h3>
+					<span>4 900 руб</span>
+					<a href="#">
 						<img src="http://placehold.it/150x100" alt="Cелфи-палка Следуй за мной">
-						</a>
-					</li>
-				</ul>
-				<ul class="pagination-list">
-					<li class="pagination-item"><a href="#"></a>Назад</li>
-					<li class="pagination-item pagination-item-current"><a href="#"></a>1</li>
-					<li class="pagination-item"><a href="#"></a>2</li>
-					<li class="pagination-item"><a href="#"></a>3</li>
-					<li class="pagination-item"><a href="#"></a>Вперед</li>
-				</ul>
+					</a>
+					<a href="#">В корзину</a>
+					<a href="#">Добавить к сравнению</a>
+				</li>
+			</ul>
+			<ul class="pagination-list">
+				<li class="pagination-item">
+					<a href="#"></a>Назад</li>
+				<li class="pagination-item pagination-item-current">1</li>
+				<li class="pagination-item">
+					<a href="#"></a>2</li>
+				<li class="pagination-item">
+					<a href="#"></a>3</li>
+				<li class="pagination-item">
+					<a href="#"></a>Вперед</li>
+			</ul>
 		</section>
 	</main>
 	<!-- FOOTER -->
 	<footer main-footer>
-		<a class="logo-footer" href="#">
+		<section class="top-footer">
 			<img src="#" alt="Логотип DEVICE">
-		</a>
-		<ul class="user-navigation-footer-list">
-			<li>Вход</li>
-			<li>Выход</li>
-		</ul>
-		<ul>
+			<ul class="user-navigation-footer-list"></ul>
 			<li>
-				<a href="#">Сравнить</a>
+				<a href="#">Валентин Петухов</a>
 			</li>
 			<li>
-				<a href="#">Корзина</a>
+				<a href="#">Выйти</a>
 			</li>
-		</ul>
-		<div class="footer-contact">
-			<p>г.Москва ул. Строителей, 15</p>
-			<p>Тел.:+7(495) 495-95-95</p>
-		</div>
-		<nav class="footer-navigation">
+			</ul>
 			<ul>
 				<li>
-					<a href="#">Доставка</a>
+					<span>icon</span>
+					<a href="#">Сравнить</a>
 				</li>
 				<li>
-					<a href="#">Гарантия</a>
-				</li>
-				<li>
-					<a href="#">Контакты</a>
+					<span>icon</span>
+					<a href="#">Корзина</a>
 				</li>
 			</ul>
-		</nav>
-		<ul class="footer-social">
-			<li>
-				<a class="social-btn" href="#">facebook</a>
-			</li>
-			<li>
-				<a class="social-btn" href="#">instagram</a>
-			</li>
-			<li>
-				<a class="social-btn" href="#">twitter</a>
-			</li>
-		</ul>
-		<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="#" alt="логотип html academy"></a>
+		</section>
+		<section class="middle-footer">
+			<p class="middle-footer-address">
+				г.Москва ул. Строителей, 15
+			</p>
+			<nav class="footer-navigation">
+				<ul class="footer-navigation-list">
+					<li>
+						<a href="#">Доставка</a>
+					</li>
+					<li>
+						<a href="#">Гарантия</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<p class="middle-footer-contact">
+				Тел.:+7(495) 495-95-95
+			</p>
+		</section>
+		<section class="bottom-footer">
+			<ul class="bottom-footer-social">
+				<li>
+					<a class="social-btn" href="#">facebook</a>
+				</li>
+				<li>
+					<a class="social-btn" href="#">instagram</a>
+				</li>
+				<li>
+					<a class="social-btn" href="#">twitter</a>
+				</li>
+			</ul>
+			<a href="https://htmlacademy.ru/intensive/htmlcss">
+				<img src="#" alt="логотип html academy">
+			</a>
+		</section>
 	</footer>
- </body>
- </html>
+</body>
+
+</html>
