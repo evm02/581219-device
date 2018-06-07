@@ -16,7 +16,7 @@
 			<button type="submit"></button>
 			<input type="text" name="search" placeholder="Посик по сайту">
 		</form>
-		<ul class="user-navigation-header-list">
+		<ul class="main-header__user-navigation-list">
 			<li>
 				<a href="#">Валентин Петухов</a>
 			</li>
@@ -30,8 +30,8 @@
 				<a href="#">Корзина</a>
 			</li>
 		</ul>
-		<nav class="header-navigation">
-			<ul class="header-catalog-list">
+		<nav class="main-navigation">
+			<ul class="main-navigation__list">
 				<li>Каталог товаров
 					<ul>
 						<li>
@@ -55,7 +55,7 @@
 					</ul>
 				</li>
 			</ul>
-			<ul class="site-navigation">
+			<ul class="site-navigation__list">
 				<li>
 					<a href="#">Доставка</a>
 				</li>
@@ -85,11 +85,12 @@
 			<h2 class="visuale-hidden">Фильр товаров</h2>
 			<!-- Здесь будет форма -->
 		</section>
-		<section class="catolog">
+		<!-- Catalog -->
+		<section class="catalog">
 			<h2 class="visuale-hidden">Селфи-палка</h2>
-			<nav class="catalog-menu">
+			<nav class="catalog__filter-navigation">
 				<h3>Сортировка:</h3>
-				<ul>
+				<ul class="filter-navigation__list">
 					<li>По цене</li>
 					<li>
 						<a href="#"></a>По типу</li>
@@ -97,51 +98,51 @@
 						<a href="#"></a>По популярности</li>
 				</ul>
 			</nav>
-			<ul class="catalog-list">
-				<li class="catalog-item">
+			<ul class="catalog__list">
+				<li class="catalog__item">
 					<h3>Любительская селфи-палка</h3>
 					<span>500 руб</span>
 					<a href="#">
-						<img src="http://placehold.it/150x100" alt="Любительская селфи-палка">
+						<img src="img/content/catalog/item-1.jpg" alt="Любительская селфи-палка">
 					</a>
 					<a href="#">В корзину</a>
 					<a href="#">Добавить к сравнению</a>
 				</li>
-				<li class="catalog-item">
+				<li class="catalog__item">
 					<h3>Профессиональная селфи-палка</h3>
 					<span>1500 руб</span>
 					<a href="#">
-						<img src="http://placehold.it/150x100" alt="Профессиональная селфи-палка">
+						<img src="img/content/catalog/item-2.jpg" alt="Профессиональная селфи-палка">
 					</a>
 					<a href="#">В корзтну</a>
 					<a href="#">Добавить к сравнению</a>
 				</li>
-				<li class="catalog-item">
+				<li class="catalog__item">
 					<h3>Непотопляемая селфи-палка</h3>
 					<span>2 500 руб</span>
 					<a href="#">
-						<img src="http://placehold.it/150x100" alt="Непотопляемая селфи-палка">
+						<img src="img/content/catalog/item-3.jpg" alt="Непотопляемая селфи-палка">
 					</a>
 				</li>
-				<li class="catalog-item">
+				<li class="catalog__item">
 					<h3>Cелфи-палка "Следуй за мной"</h3>
 					<span>4 900 руб</span>
 					<a href="#">
-						<img src="http://placehold.it/150x100" alt="Cелфи-палка Следуй за мной">
+						<img src="img/content/catalog/item-4.jpg" alt="Cелфи-палка Следуй за мной">
 					</a>
 					<a href="#">В корзину</a>
 					<a href="#">Добавить к сравнению</a>
 				</li>
 			</ul>
-			<ul class="pagination-list">
-				<li class="pagination-item">
+			<ul class="catalog-pagination__list">
+				<li class="catalog-pagination__item">
 					<a href="#"></a>Назад</li>
 				<li class="pagination-item pagination-item-current">1</li>
-				<li class="pagination-item">
+				<li class="catalog-pagination__item">
 					<a href="#"></a>2</li>
-				<li class="pagination-item">
+				<li class="catalog-pagination__item">
 					<a href="#"></a>3</li>
-				<li class="pagination-item">
+				<li class="catalog-pagination__item">
 					<a href="#"></a>Вперед</li>
 			</ul>
 		</section>

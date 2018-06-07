@@ -14,19 +14,18 @@
       <button type="submit"></button>
       <input type="text" name="search" placeholder="Посик по сайту">
     </form>
-    <ul class="user-navigation-header-list">
+    <ul class="main-header__user-navigation-list">
       <li>Войти</li>
     </ul>
     <ul>
       <li>
         <a href="#">Сравнить</a>
-      </li>
       <li>
-        <a href="#">Корзина</a>
+        <a href="#">Корзина</a>  
       </li>
     </ul>
-    <nav class="header-navigation">
-      <ul class="header-catalog-list">
+    <nav class="site-navigation">
+      <ul class="site-navigation__list">
         <li>Каталог товаров
           <ul>
             <li>
@@ -50,7 +49,7 @@
           </ul>
         </li>
       </ul>
-      <ul class="site-navigation">
+      <ul class="site-navigation-list">
         <li>
           <a href="#">Доставка</a>
         </li>
@@ -66,9 +65,10 @@
 
   <!-- MAIN -->
   <main class="container">
+    <!-- Slider -->
     <section class="slider">
-      <img src="http://placehold.it/150x100" alt="изображение Палка для селфи">
-      <h2>Делай селфи как Бен Стиллер!</h2>
+      <img src="img/content/slider/slider-1.png" alt="изображение Палка для селфи">
+      <h2 class="title">Делай селфи как Бен Стиллер!</h2>
       <p>
         Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длинной и весом всего 5 килограмм.
       </p>
@@ -88,11 +88,12 @@
         </li>
       </ul>
     </section>
+    <!-- Slider -->
     <section class="catalog-popular">
       <h2 class="visuale-hidden">Популярные товары</h2>
-      <ul class="catalog-popular-list">
+      <ul class="catalog-popular__list">
         <li>
-          <h3>
+          <h3 class="title">
             <a href="#">Виртуальная реальность</a>
           </h3>
           <a href="#">
@@ -100,15 +101,15 @@
           </a>
         </li>
         <li>
-          <h3>
+          <h3 class="title">
             <a href="#">Моноподы для селфи</a>
           </h3>
           <a href="#">
-            <img src="http://placehold.it/150x100" alt="Моноподы для селфи">
+            <img src="img/content/catalog/" alt="Моноподы для селфи">
           </a>
         </li>
         <li>
-          <h3>
+          <h3 class="title">
             <a href="#">Экшн-камеры</a>
           </h3>
           <a href="#">
@@ -116,7 +117,7 @@
           </a>
         </li>
         <li>
-          <h3>
+          <h3 class="title">
             <a href="#">Фитнес-браслеты</a>
           </h3>
           <a href="#">
@@ -124,7 +125,7 @@
           </a>
         </li>
         <li>
-          <h3>
+          <h3 class="title">
             <a href="#">Умные часы</a>
           </h3>
           <a href="#">
@@ -132,7 +133,7 @@
           </a>
         </li>
         <li>
-          <h3>
+          <h3 class="title">
             <a href="#">Квадрокоптеры</a>
           </h3>
           <a href="#">
@@ -260,16 +261,16 @@
         Тел.:+7(495) 495-95-95
       </p>
     </section>
-    <section class="bottom-footer">
-      <ul class="bottom-footer-social">
+    <section class="footer__btn-social">
+      <ul class="btn-social__list">
         <li>
-          <a class="social-btn" href="#">facebook</a>
+          <a class="btn-social__link" href="#">facebook</a>
         </li>
         <li>
-          <a class="social-btn" href="#">instagram</a>
+          <a class="sbtn-social__link" href="#">instagram</a>
         </li>
         <li>
-          <a class="social-btn" href="#">twitter</a>
+          <a class="btn-social__link" href="#">twitter</a>
         </li>
       </ul>
       <a href="https://htmlacademy.ru/intensive/htmlcss">
