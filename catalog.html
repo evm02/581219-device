@@ -4,9 +4,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Каталог</title>
+	<link rel="stylysheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
 </head>
 
-<body>
+<body class="inner-page">
 	<!-- HEADER -->
 	<header class="main-header">
 		<a class="logo" href="index.html">
@@ -18,40 +21,74 @@
 		</form>
 		<ul class="user-nav">
 			<li class="user-nav__item">
-				<a href="#">Валентин Петухов</a>
+				<a class="main-header__link" href="#">Валентин Петухов</a>
 			</li>
 			<li class="user-nav__item">
-				<a href="#">Выыйти</a>
+				<a class="main-header__link" href="#">Выйти</a>
 			</li>
 		</ul>
 		<ul>
-			<li><a href="#">Сравнить</a></li>
-			<li><a href="#">Корзина</a></li>
+			<li>
+				<a class="main-header__link" href="#">Сравнить</a>
+			</li>
+			<li>
+				<a class="main-header__link" href="#">Корзина</a>
+			</li>
 		</ul>
 		<nav class="main-nav">
 			<ul class="main-nav__catalog">
-				<li>Каталог товаров
+				<li><span class="main-nav__title">Каталог товаров</span>
 					<ul>
-						<li><a href="#">Виртуальная реальность</a></li>
-						<li><a href="#">Фитнес-браслеты</a></li>
-						<li><a href="#">Квадрокоптеры</a></li>
-						<li><a href="#">Моноподы для селфи</a></li>
-						<li><a href="#">Умные часы</a></li>
-						<li><a href="#">Экшн-камеры</a></li>
+						<li>
+							<a class="main-nav__link" href="#">
+								Виртуальная реальность
+							</a>
+						</li>
+						<li>
+							<a class="main-nav__link" href="#">
+								Фитнес-браслеты
+							</a>
+						</li>
+						<li>
+							<a class="main-nav__link" href="#">
+								Квадрокоптеры
+							</a>
+						</li>
+						<li>
+							<a class="main-nav__link" href="#">
+								Моноподы для селфи
+							</a>
+						</li>
+						<li>
+							<a class="main-nav__link" href="#">
+								Умные часы
+							</a>
+						</li>
+						<li>
+							<a class="main-nav__link" href="#">
+								Экшн-камеры
+							</a>
+						</li>
 					</ul>
 				</li>
 			</ul>
-			<ul class="main-nav__service">
-				<li><a href="#">Доставка</a></li>
-				<li><a href="#">Гарантия</a></li>
-				<li><a href="#">Контакты</a></li>
+			<ul class="main-nav__services">
+				<li>
+					<a class="main-nav__title" href="#">Доставка</a>
+				</li>
+				<li>
+					<a class="main-nav__title" href="#">Гарантия</a>
+				</li>
+				<li>
+					<a class="main-nav__title" href="#">Контакты</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<!-- MAIN -->
 	<main class="container">
-		<h1>Монопады для селфи</h1>
+		<h1 class="page-title">Монопады для селфи</h1>
 		<ul class="breadcrums">
 			<li><a href="index.html">Главная</a></li>
 			<li><a href="#">Каталог товаров</a></li>
@@ -59,15 +96,15 @@
 		</ul>
 		<!-- Filters -->
 		<section class="filters">
-			<h2>Фильтр:</h2>
+			<h2 class="filters-title">Фильтр:</h2>
 			<form class="filter-form" method="get" action="#" oninput="rate.value=range.value">
 				<fieldset>
 					<legend>Стоимость</legend>
-					0 <input type="range" name="range" min="0" max="5000" step="1">
+					0 <input type="range" name="range" min="0" max="10000" value="5000" step="1">
 					<output name="rate">5000</output>
 				</fieldset>
 				<fieldset>
-				<legend>Цвет</legend><br>
+				<legend>Цвет</legend>
 				<ul>
 					<li class="filter-option">
 						<input id="black" class="visual-hidden filter__input filter__checkbox" type="checkbox" name="black" alt="черный">
@@ -107,13 +144,14 @@
 				<button class="filter-btn button" type="submit">Показать</button>
 			</form>
 		</section>
+		<!-- Filters -->
 		<!-- Catalog navigation-->
 		<section class="catalog">
 			<h2 class="visuale-hidden">Каталог товаров</h2>
 			<div class="сatalog-sort">
-				<h3>Сортировка:</h3>
+				<h2 class="filters-title">Сортировка:</h2>
 				<ul class="сatalog-sort__list">
-					<li class="сatalog-sort__item">По цене</li>
+					<li class="сatalog-sort__item сatalog-sort-current">По цене</li>
 					<li class="сatalog-sort__item"><a href="#"></a>По типу</li>
 					<li class="сatalog-sort__item"><a href="#"></a>По популярности</li>
 				</ul>
@@ -129,8 +167,8 @@
 					<a href="#">
 						<img src="img/content/catalog/item-1.jpg" alt="Любительская селфи-палка">
 					</a>
-					<a href="#">В корзину</a>
-					<a href="#">Добавить к сравнению</a>
+					<a class="catalog__cart" href="#">В корзину</a>
+					<a class="catalog__link" href="#">Добавить к сравнению</a>
 				</li>
 				<li class="catalog__item">
 					<h3>Профессиональная селфи-палка</h3>
@@ -138,8 +176,8 @@
 					<a href="#">
 						<img src="img/content/catalog/item-2.jpg" alt="Профессиональная селфи-палка">
 					</a>
-					<a href="#">В корзтну</a>
-					<a href="#">Добавить к сравнению</a>
+					<a class="catalog__cart" href="#">В корзину</a>
+					<a class="catalog__link" href="#">Добавить к сравнению</a>
 				</li>
 				<li class="catalog__item">
 					<h3>Непотопляемая селфи-палка</h3>
@@ -147,6 +185,8 @@
 					<a href="#">
 						<img src="img/content/catalog/item-3.jpg" alt="Непотопляемая селфи-палка">
 					</a>
+					<a class="catalog__cart" href="#">В корзину</a>
+					<a class="catalog__link" href="#">Добавить к сравнению</a>
 				</li>
 				<li class="catalog__item">
 					<h3>Cелфи-палка "Следуй за мной"</h3>
@@ -154,16 +194,16 @@
 					<a href="#">
 						<img src="img/content/catalog/item-4.jpg" alt="Cелфи-палка Следуй за мной">
 					</a>
-					<a href="#">В корзину</a>
-					<a href="#">Добавить к сравнению</a>
+					<a class="catalog__cart" href="#">В корзину</a>
+					<a class="catalog__link" href="#">Добавить к сравнению</a>
 				</li>
 			</ul>
 			<ul class="pagination__list">
-				<li class="pagination__item"><a href="#">Назад</a></li>
-				<li class="pagination__item pagination-current__item">1</li>
+				<li><a class="pagination__item" href="#"><span>Назад</span></a></li>
+				<li class="pagination__item pagination__current">1</li>
 				<li class="pagination__item"><a href="#">2</a></li>
 				<li class="pagination__item"><a href="#">3</a></li>
-				<li class="pagination__item"><a href="#">Вперед</a></li>
+				<li class="pagination__item"><a href="#"><span>Вперед</span></a></li>
 			</ul>
 		</section>
 	</main>
@@ -171,47 +211,49 @@
 	<footer class="main-footer">
 		<section class="footer-top">
 			<img src="#" alt="Логотип DEVICE">
-			<ul class="main-footer__user-navigation">
+			<ul class="main-footer__user-nav">
 				<li>
-					<span>icon</span>
-					<a href="#">Валентин Петухов</a>
+					<a class="main-footer__link" href="#">Валентин Петухов</a>
 				</li>
 				<li>
-					<span>icon</span>
-					<a href="#">Выйти</a>
+					<a class="main-footer__link" href="#">Выйти</a>
 				</li>
 			</ul>
 			<ul>
 				<li>
-					<span>icon</span>
-					<a href="#">Сравнить</a>
+					<a class="main-footer__link" href="#">Сравнить</a>
 				</li>
 				<li>
-					<span>icon</span>
-					<a href="#">Корзина</a>
+					<a class="main-footer__link" href="#">Корзина</a>
 				</li>
 			</ul>
 		</section>
 		<section class="footer-middle">
 			<h2 class="visuale-hidden">Адрес</h2>
 			<p class="address">
-				г.Москва ул. Строителей, 15
+				г. Москва ул. Строителей, 15
 			</p>
-				<ul class="footer-service">
-					<li><a href="#">Доставка</a></li>
-					<li><a href="#">Гарантия</a></li>
-					<li><a href="#">Контакты</a></li>
+				<ul class="footer-services">
+					<li>
+						<a class="footer-services__link" href="#">Доставка</a>
+					</li>
+					<li>
+						<a class="footer-services__link" href="#">Гарантия</a>
+					</li>
+					<li>
+						<a class="footer-services__link" href="#">Контакты</a>
+					</li>
 				</ul>
-			<p class="contact">
+			<p class="contacts">
 				Тел.:+7(495) 495-95-95
 			</p>
 		</section>
 		<section class="footer-bottom">
 			<h2 class="visuale-hidden">Социальные сети</h2>
 			<ul class="social">
-				<li><a class="social__link" href="https://www.facebook.com/">facebook</a></li>
-				<li><a class="social__link" href="https://www.instagram.com/">instagram</a></li>
-				<li><a class="social__link" href="https://twitter.com/">twitter</a></li>
+				<li><a class="social__link social-fb" href="https://www.facebook.com/">facebook</a></li>
+				<li><a class="social__link social-ig" href="https://www.instagram.com/">instagram</a></li>
+				<li><a class="social__link social-tw" href="https://twitter.com/">twitter</a></li>
 			</ul>
 			<a href="https://htmlacademy.ru/intensive/htmlcss">
 				<img src="img/decorative/svg-device/logo-html.svg" alt="логотип html academy">

@@ -1,0 +1,332 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Open Sans", "Arial", sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	color: #464646;
+
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* .visual-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+} */
+
+/* HEADER */
+.main-nav__title {
+	font-family: "Gilroy-Light", sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 3.6px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.main-header__link {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	letter-spacing: 0.15px;
+	color: #000000;
+}
+
+.main-nav__link {
+	font-family: "OpenSansLight", sans-serif;
+	line-height: 36px;
+	letter-spacing: 0.15px;
+	color: #000000;
+}
+
+
+/* Inner-page HEADER */
+.page-title {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 47px;
+	line-height: 48px;
+	color: #000000;
+}
+
+
+/* MAIN */
+/* Slider */
+.breadcrums a {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.14px;
+	font-weight: normal;
+	color: rgb(0, 0, 0, 0.3);
+}
+
+.breadcrums-current {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.14px;
+	font-weight: normal;
+	color: rgb(0, 0, 0, 0.3);
+}
+
+.slider-title {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 47px;
+	line-height: 56px;
+	letter-spacing: 0.17px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.slider__text {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	letter-spacing: 0.15px;
+	color: #000000;
+}
+
+.slider__btn-more {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.feature__item {
+	font-family: "Gilroy-Light", sans-serif;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.36px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.feature__item span {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 0.13px;
+	font-weight: lighter;
+}
+
+/* Catalog-popular */
+.catalog-popular__title a {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.18px;
+	font-weight: 800;
+	color: #000000;
+}
+
+/* Tabs */
+.tabs-services a {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.tabs-services__content h3 {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 47px;
+	line-height: 58px;
+	letter-spacing: 0.21px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.tabs-services__content p {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	letter-spacing: 0.15px;
+}
+
+/* Inner-page Filter*/
+.filter-form fieldset {
+	border: none;
+}
+
+.filters-title {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.filters legend {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.18px;
+	color: #000000;
+}
+ 
+.fieldset label {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 16px;
+	line-height: 39px;
+	letter-spacing: 0.14px;
+	color: #000000;
+}
+
+.filter-btn {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 800;
+	color: #000000;
+}
+
+/* Inner-page Catalog navigation*/
+.сatalog-sort__item {
+	font-family: "OpenSansRegular", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgb(0, 0, 0, 0.3);
+}
+.сatalog-sort-current {
+	color: #000000;
+}
+/* стрелки меню */
+/* .сatalog-sort__btn {
+
+} */
+
+.catalog__item h3 {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.18px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.catalog__item span {
+	font-family: "Gilroy-Light", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.16px;
+}
+
+.catalog__cart {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.catalog__link {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 13px;
+	line-height: 36px;
+	letter-spacing: 0.13px;
+	color: hsl(0, 0%, 0%, 50%);
+}
+
+.pagination__item span {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.pagination__item, a {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.91px;
+	color: hsl(0, 0%, 0%, 30%);
+}
+.pagination__current {
+	color: #000000;
+}
+
+
+/* Brands */
+
+/* About, Contacts*/
+.about-contacts-title {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 47px;
+	line-height: 48px;
+	letter-spacing: 0.21px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.about-contacts-text {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.about-item li {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 800;
+	color: #000000;
+}
+
+.about-contacts-btn {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 800;
+	color: #000000;
+}
+
+/* FOOTER */
+/* Main-footer */
+.main-footer__link  {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 15px;
+	line-height: 36px;
+	letter-spacing: 0.15px;
+	color: #000000;
+}
+
+/* Footer-middle */
+.footer-middle p {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.footer-services__link {
+	font-family: "Gilroy-ExtraBold", sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 3.6px;
+	font-weight: 800;
+	color: #000000;
+}
+
