@@ -27,6 +27,10 @@ li {
 } */
 
 /* HEADER */
+.main-header {
+	background-color: #f7e296;
+}
+
 .main-nav__title {
 	font-family: "Gilroy-Light", sans-serif;
 	text-transform: uppercase;
@@ -68,7 +72,7 @@ li {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
-	letter-spacing: 0.14px;
+	letter-spacing: 0.15px;
 	font-weight: normal;
 	color: rgb(0, 0, 0, 0.3);
 }
@@ -77,7 +81,7 @@ li {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
-	letter-spacing: 0.14px;
+	letter-spacing: 0.15px;
 	font-weight: normal;
 	color: rgb(0, 0, 0, 0.3);
 }
@@ -86,7 +90,7 @@ li {
 	font-family: "Gilroy-ExtraBold", sans-serif;
 	font-size: 47px;
 	line-height: 56px;
-	letter-spacing: 0.17px;
+	letter-spacing: 0.15px;
 	font-weight: 800;
 	color: #000000;
 }
@@ -121,7 +125,7 @@ li {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 13px;
 	line-height: 20px;
-	letter-spacing: 0.13px;
+	letter-spacing: 0.15px;
 	font-weight: lighter;
 }
 
@@ -130,12 +134,15 @@ li {
 	font-family: "Gilroy-ExtraBold", sans-serif;
 	font-size: 18px;
 	line-height: 24px;
-	letter-spacing: 0.18px;
+	letter-spacing: 0.15px;
 	font-weight: 800;
 	color: #000000;
 }
 
 /* Tabs */
+.tabs {
+	background-color: #e5e5e5;
+}
 .tabs-services a {
 	font-family: "Gilroy-ExtraBold", sans-serif;
 	font-size: 18px;
@@ -177,7 +184,7 @@ li {
 	font-family: "Gilroy-ExtraBold", sans-serif;
 	font-size: 18px;
 	line-height: 24px;
-	letter-spacing: 0.18px;
+	letter-spacing: 0.15px;
 	color: #000000;
 }
  
@@ -185,7 +192,7 @@ li {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 16px;
 	line-height: 39px;
-	letter-spacing: 0.14px;
+	letter-spacing: 0.15px;
 	color: #000000;
 }
 
@@ -217,7 +224,7 @@ li {
 	font-family: "Gilroy-ExtraBold", sans-serif;
 	font-size: 18px;
 	line-height: 24px;
-	letter-spacing: 0.18px;
+	letter-spacing: 0.15px;
 	font-weight: 800;
 	color: #000000;
 }
@@ -226,7 +233,7 @@ li {
 	font-family: "Gilroy-Light", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
-	letter-spacing: 0.16px;
+	letter-spacing: 0.15px;
 }
 
 .catalog__cart {
@@ -242,7 +249,7 @@ li {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 13px;
 	line-height: 36px;
-	letter-spacing: 0.13px;
+	letter-spacing: 0.15px;
 	color: hsl(0, 0%, 0%, 50%);
 }
 
@@ -304,12 +311,16 @@ li {
 
 /* FOOTER */
 /* Main-footer */
+.main-footer {
+	background-color: #464646;
+}
+
 .main-footer__link  {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 15px;
 	line-height: 36px;
 	letter-spacing: 0.15px;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 /* Footer-middle */
@@ -317,7 +328,8 @@ li {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 15px;
 	line-height: 30px;
-	color: #000000;
+	color: #FFFFFF;
+	
 }
 
 .footer-services__link {
@@ -327,6 +339,6 @@ li {
 	line-height: 24px;
 	letter-spacing: 3.6px;
 	font-weight: 800;
-	color: #000000;
+	color: #FFFFFF;
 }
 

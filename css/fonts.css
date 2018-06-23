@@ -1,37 +1,38 @@
 /* font-family: "Gilroy-Light"; */
 @font-face {
 	font-family: "Gilroy-Light";
-	src: url("fonts/gilroy/Gilroy-Light.eot");
-	src: url("fonts/gilroy/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
-			 url("fonts/gilroy/Gilroy-Light.woff") format("woff"),
-			 url("fonts/gilroy/Gilroy-Light.ttf") format("truetype");
+	src: url("../fonts/gilroy/Gilroy-Light.eot");
+	src: url("../fonts/gilroy/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/gilroy/Gilroy-Light.woff") format("woff"),
+			 url("../fonts/gilroy/Gilroy-Light.ttf") format("truetype");
 }
 
 /* font-family: "Gilroy-ExtraBold"; */
 @font-face {
 	font-family: "Gilroy-ExtraBold";
-	src: url("fonts/gilroy/Gilroy-ExtraBold.eot");
-	src: url("fonts/gilroy/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
-			 url("fonts/gilroy/Gilroy-ExtraBold.woff") format("woff"),
-			 url("fonts/gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+	src: url("../fonts/gilroy/Gilroy-ExtraBold.eot");
+	src: url("../fonts/gilroy/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/gilroy/Gilroy-ExtraBold.woff") format("woff"),
+			 url("../fonts/gilroy/Gilroy-ExtraBold.ttf") format("truetype");
 }
 
 /* font-family: "Open Sans Light"; */
 @font-face {
 	font-family: "OpenSansLight";
-	src: url("fonts/open_sans/OpenSansLight/OpenSansLight.eot");
-	src: url("fonts/open_sans/OpenSansLight/OpenSansLight.eot?#iefix") format("embedded-opentype"),
-	     url("fonts/open_sans/OpenSansLight/OpenSansLight.woff") format("woff"),
-	     url("fonts/open_sans/OpenSansLight/OpenSansLight.ttf") format("truetype");
+	src: url("../fonts/open_sans/OpenSansLight/OpenSansLight.eot");
+	src: url("../fonts/open_sans/OpenSansLight/OpenSansLight.eot?#iefix") format("embedded-opentype"),
+	     url("../fonts/open_sans/OpenSansLight/OpenSansLight.woff") format("woff"),
+	     url("../fonts/open_sans/OpenSansLight/OpenSansLight.ttf") format("truetype");
 }
 
 /* font-family: "Open Sans Regular"; */
 @font-face {
 	font-family: "OpenSansRegular";
-	src: url("fonts/open_sans/OpenSansRegular/OpenSansRegular.eot");
-	src: url("fonts/open_sans/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"),
-	     url("fonts/open_sans/OpenSansRegular/OpenSansRegular.woff") format("woff"),
-	     url("fonts/open_sans/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+	src: url("../fonts/open_sans/OpenSansRegular/OpenSansRegular.eot");
+	src: url("../fonts/open_sans/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"),
+	     url("../fonts/open_sans/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+	     url("../fonts/open_sans/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
 }
+
 
 
