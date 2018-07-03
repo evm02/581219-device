@@ -10,141 +10,151 @@
 </head>
 
 <body class="inner-page">
+	<div class="wrapper">
 	<!-- HEADER -->
 	<header class="main-header">
-		<a class="logo" href="index.html">
-			<img src="index.html" alt="Логотип DEVICE">
-		</a>
-		<form class="form-search">
-			<button class="form-search__btn" type="submit"></button>
-			<input class="form-search__input" type="text" name="search" placeholder="Посик по сайту">
-		</form>
-		<ul class="user-nav">
-			<li class="user-nav__item">
-				<a class="main-header__link" href="#">Валентин Петухов</a>
-			</li>
-			<li class="user-nav__item">
-				<a class="main-header__link" href="#">Выйти</a>
-			</li>
-		</ul>
-		<ul>
-			<li>
-				<a class="main-header__link" href="#">Сравнить</a>
-			</li>
-			<li>
-				<a class="main-header__link" href="#">Корзина</a>
-			</li>
-		</ul>
-		<nav class="main-nav">
-			<ul class="main-nav__catalog">
-				<li><span class="main-nav__title">Каталог товаров</span>
-					<ul>
-						<li>
-							<a class="main-nav__link" href="#">
-								Виртуальная реальность
-							</a>
-						</li>
-						<li>
-							<a class="main-nav__link" href="#">
-								Фитнес-браслеты
-							</a>
-						</li>
-						<li>
-							<a class="main-nav__link" href="#">
-								Квадрокоптеры
-							</a>
-						</li>
-						<li>
-							<a class="main-nav__link" href="#">
-								Моноподы для селфи
-							</a>
-						</li>
-						<li>
-							<a class="main-nav__link" href="#">
-								Умные часы
-							</a>
-						</li>
-						<li>
-							<a class="main-nav__link" href="#">
-								Экшн-камеры
-							</a>
-						</li>
-					</ul>
+		<!-- header-top --> 
+		<div class="header-top">
+			<p class="logo">DIVICE</p>
+			<form class="form-search">
+				<button class="form-search__btn" type="submit"></button>
+				<input class="form-search__input" type="text" name="search" placeholder="Посик по сайту">
+			</form>
+			<ul class="user-nav">
+				<li class="user-nav__item">
+					<a class="main-header__link" href="#">Валентин Петухов</a>
+				</li>
+				<li class="user-nav__item">
+					<a class="main-header__link" href="#">Выйти</a>
 				</li>
 			</ul>
-			<ul class="main-nav__services">
+			<ul class="wrap-link">
 				<li>
-					<a class="main-nav__title" href="#">Доставка</a>
+					<a class="main-header__link" href="#">Сравнить</a>
 				</li>
 				<li>
-					<a class="main-nav__title" href="#">Гарантия</a>
-				</li>
-				<li>
-					<a class="main-nav__title" href="#">Контакты</a>
+					<a class="main-header__link" href="#">Корзина</a>
 				</li>
 			</ul>
-		</nav>
+		</div>
+		<!-- header bottom -->
+		<div class="header-bottom">
+			<nav class="main-nav">
+				<ul class="main-nav__catalog">
+					<li><span class="main-nav__title">Каталог товаров</span>
+						<ul>
+							<li>
+								<a class="main-nav__link" href="#">
+									Виртуальная реальность
+								</a>
+							</li>
+							<li>
+								<a class="main-nav__link" href="#">
+									Фитнес-браслеты
+								</a>
+							</li>
+							<li>
+								<a class="main-nav__link" href="#">
+									Квадрокоптеры
+								</a>
+							</li>
+							<li>
+								<a class="main-nav__link" href="#">
+									Моноподы для селфи
+								</a>
+							</li>
+							<li>
+								<a class="main-nav__link" href="#">
+									Умные часы
+								</a>
+							</li>
+							<li>
+								<a class="main-nav__link" href="#">
+									Экшн-камеры
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="main-nav__services">
+					<li>
+						<a class="main-nav__title" href="#">Доставка</a>
+					</li>
+					<li>
+						<a class="main-nav__title" href="#">Гарантия</a>
+					</li>
+					<li>
+						<a class="main-nav__title" href="#">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
 	<!-- MAIN -->
 	<main class="container">
-		<h1 class="page-title">Монопады для селфи</h1>
-		<ul class="breadcrums">
-			<li><a href="index.html">Главная</a></li>
-			<li><a href="#">Каталог товаров</a></li>
-			<li class="breadcrums-current">Моноподы для селфи</li>
-		</ul>
-		<!-- Filters -->
-		<section class="filters">
-			<h2 class="filters-title">Фильтр:</h2>
-			<form class="filter-form" method="get" action="#" oninput="rate.value=range.value">
-				<fieldset>
-					<legend>Стоимость</legend>
-					0 <input type="range" name="range" min="0" max="10000" value="5000" step="1">
-					<output name="rate">5000</output>
-				</fieldset>
-				<fieldset>
-				<legend>Цвет</legend>
-				<ul>
-					<li class="filter-option">
-						<input id="black" class="visual-hidden filter__input filter__checkbox" type="checkbox" name="black" alt="черный">
-						<label for="black">Черный</label>
-					</li>
-					<li class="filter-option">
-						<input class="visual-hidden filter__input filter__checkbox" type="checkbox" name="white" id="white" alt="белый">
-					<label for="white">Белый</label>
-					</li>
-					<li class="filter-option">
-						<input class="visual-hidden filter__input filter__checkbox" type="checkbox" name="blue" id="blue" alt="синий">
-					<label for="blue">Синий</label>
-					</li>
-					<li class="filter-option">
-						<input class="visual-hidden filter__input filter__checkbox" type="checkbox" name="red" id="red" alt="красный">
-					<label for="red">Красный</label>
-					</li>
-					<li class="filter-option">
-						<input class="visual-hidden filter__input filter__checkbox" type="checkbox" name="rosy" id="rosy" alt="розовый">
-					<label for="rosy">Розовый</label>
-					</li>
-					</ul>
-				</fieldset>
-				<fieldset>
-					<legend>Bluetooth</legend>
-					<ul>
-						<li>
-							<input class="visual-hidden filter__input filter-radio" type="radio" name="bluetooth" id="there" alt="есть" checked>
-							<label for="there">Есть</label>
-						</li>
-						<li>
-							<input class="visual-hidden filter__input filter-radio" type="radio" name="bluetooth" id="no" alt="Нет">
-							<label for="no">Нет</label>
-						</li>
-					</ul>		
-				</fieldset>
-				<button class="filter-btn button" type="submit">Показать</button>
-			</form>
+		<!-- Banner -->
+		<section class="banner">
+			<h1 class="page-title">Монопады для селфи</h1>
+			<ul class="breadcrums">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="#">Каталог товаров</a></li>
+				<li class="breadcrums-current">Моноподы для селфи</li>
+			</ul>
 		</section>
+
 		<!-- Filters -->
+		<div class="filters-container">
+			<section class="filters">
+				<h2 class="filters-title">Фильтр:</h2>
+				<form class="filter-form" method="get" action="#" oninput="rate.value=range.value">
+					<fieldset>
+						<legend>Стоимость</legend>
+						0 <input type="range" name="range" min="0" max="10000" value="5000" step="1">
+						<output name="rate">5000</output>
+					</fieldset>
+					<fieldset>
+						<legend>Цвет</legend>
+						<ul>
+							<li class="filter-option">
+								<input id="black" class="visuale-hidden filter__input filter__checkbox" type="checkbox" name="black" alt="черный">
+								<label for="black">Черный</label>
+							</li>
+							<li class="filter-option">
+								<input class="visuale-hidden filter__input filter__checkbox" type="checkbox" name="white"	id="white" alt="белый">
+								<label for="white">Белый</label>
+							</li>
+							<li class="filter-option">
+								<input class="visuale-hidden filter__input filter__checkbox" type="checkbox" name="blue" id="blue" alt="синий">
+								<label for="blue">Синий</label>
+							</li>
+							<li class="filter-option">
+								<input class="visuale-hidden filter__input filter__checkbox" type="checkbox" name="red" id="red" alt="красный">
+								<label for="red">Красный</label>
+							</li>
+							<li class="filter-option">
+								<input class="visuale-hidden filter__input filter__checkbox" type="checkbox" name="rosy" id="rosy" alt="розовый">
+								<label for="rosy">Розовый</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Bluetooth</legend>
+						<ul>
+							<li>
+								<input class="visuale-hidden filter__input filter-radio" type="radio" name="bluetooth" id="there" alt="есть" checked>
+								<label for="there">Есть</label>
+							</li>
+							<li>
+								<input class="visuale-hidden filter__input filter-radio" type="radio" name="bluetooth" id="no" alt="Нет">
+								<label for="no">Нет</label>
+							</li>
+						</ul>
+					</fieldset>
+					<button class="filter-btn button" type="submit">Показать</button>
+				</form>
+			</section>
+
 		<!-- Catalog navigation-->
 		<section class="catalog">
 			<h2 class="visuale-hidden">Каталог товаров</h2>
@@ -206,6 +216,7 @@
 				<li class="pagination__item"><a href="#"><span>Вперед</span></a></li>
 			</ul>
 		</section>
+		</div>
 	</main>
 	<!-- FOOTER -->
 	<footer class="main-footer">
@@ -219,7 +230,7 @@
 					<a class="main-footer__link" href="#">Выйти</a>
 				</li>
 			</ul>
-			<ul>
+			<ul class="basket">
 				<li>
 					<a class="main-footer__link" href="#">Сравнить</a>
 				</li>
@@ -244,7 +255,7 @@
 						<a class="footer-services__link" href="#">Контакты</a>
 					</li>
 				</ul>
-			<p class="contacts">
+			<p class="footer-middle__contacts">
 				Тел.:+7(495) 495-95-95
 			</p>
 		</section>
@@ -260,6 +271,7 @@
 			</a>
 		</section>
 	</footer>
+</div>
 </body>
 
 </html>
